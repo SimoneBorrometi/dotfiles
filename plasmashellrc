@@ -23,6 +23,9 @@ HDMI-0 Width 1920x1080=395
 CompletionMode=1
 History=fire
 
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
 [PlasmaViews][Panel 2][Defaults]
 thickness=34
 
@@ -53,7 +56,7 @@ minLength=714
 thickness=43
 
 [ScreenConnectors]
-0=eDP
+0=HDMI-0
 1=:0.0
 
 [Updates]

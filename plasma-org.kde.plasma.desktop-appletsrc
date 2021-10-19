@@ -47,7 +47,7 @@ buttonsPosition=UpperRight
 buttonsVerticalCenter=true
 controlButtonsSpacing=9
 customAuroraeThemeImageExtension=.svgz
-customAuroraeThemePath=/home/simone/.local/share/aurorae/themes/Breezemite_dark_OPT
+customAuroraeThemePath=/home/simoneb/.local/share/aurorae/themes/Breezemite_dark_OPT
 doNotHideControlButtons=true
 horizontalScreenWidthPercent=0.058
 showButtonOnlyWhenMaximized=true
@@ -57,8 +57,8 @@ showPinToAllDesktops=true
 showWindowTitle=false
 
 [Containments][2][Applets][44][Configuration][ConfigDialog]
-DialogHeight=1017
-DialogWidth=960
+DialogHeight=1046
+DialogWidth=1920
 
 [Containments][2][Applets][45]
 immutability=1
@@ -90,7 +90,7 @@ DialogWidth=720
 
 [Containments][2][Applets][54][Configuration][General]
 groupedTaskVisualization=2
-launchers=preferred://filemanager,applications:thunderbird.desktop,applications:firefox.desktop
+launchers=preferred://filemanager,applications:thunderbird.desktop,applications:firefox.desktop,applications:Spt.desktop
 maxStripes=1
 wheelEnabled=false
 
@@ -99,7 +99,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=18
+PreloadWeight=28
 SystrayContainmentId=8
 
 [Containments][2][Applets][78]
@@ -250,9 +250,8 @@ plugin=org.kde.plasma.clipboard
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=0
 
-[Containments][8][Applets][90]
-immutability=1
-plugin=org.kde.plasma.battery
+[Containments][8][Applets][90][Configuration]
+PreloadWeight=42
 
 [Containments][8][ConfigDialog]
 DialogHeight=540
@@ -262,13 +261,12 @@ DialogWidth=720
 PreloadWeight=0
 
 [Containments][8][General]
-extraItems=org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.battery
+extraItems=org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.keyboardlayout,org.kde.plasma.volume
 knownItems=org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.vault,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.volume
-shownItems=org.kde.plasma.battery
 
-[Containments][88]
+[Containments][89]
 ItemGeometriesHorizontal=
-activityId=aec1659c-61a2-4e73-a42c-50265099ec19
+activityId=3d00b850-7143-4c19-a3d3-eb82ff08883f
 formfactor=0
 immutability=1
 lastScreen=0
@@ -276,17 +274,29 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][88][ConfigDialog]
+[Containments][89][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][88][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=577
-ToolBoxButtonY=34
+[Containments][89][Wallpaper][org.kde.image][General]
+Image=file:///home/simoneb/Pictures/I_Sfondi/Bilderesultat-for-2560x1440-anime-galaxy-in-2019-Scenery-.jpg
+SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
 
-[Containments][88][Wallpaper][org.kde.image][General]
-Image=file:///home/simone/Pictures/Wallpapers/69618131_p0_master12002.jpg
+[Containments][91]
+activityId=bb534333-c182-47ab-ab13-f6eae0666ebf
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][91][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][91][Wallpaper][org.kde.image][General]
+Image=/home/simoneb/Pictures/I_Sfondi/ign-waifu.png
 SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
 
 [Containments85Appletsts][39][Configuration][General]
@@ -320,4 +330,4 @@ timer_auto_next_enabled=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=file:///home/simoneb/Desktop/Link to Application.desktop,0,desktop:/Link to Application.desktop,0
+screenMapping=desktop:/Link to Application.desktop,0,file:///home/simoneb/Desktop/Link to Application.desktop,0

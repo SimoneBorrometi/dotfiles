@@ -110,5 +110,5 @@ RollOverDesktops=false
 [org.kde.kdecoration2]
 ButtonsOnLeft=M
 ButtonsOnRight=HSIAX
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Breezemite_dark_OPT
+library=org.kde.breeze
+theme=Breeze
