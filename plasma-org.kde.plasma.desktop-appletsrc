@@ -9,44 +9,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [AppletGlobals][org.kde.plasma.comic]
 lastUpdate=2021,5,24,22,16,45.041
 
-[Containments][1]
-ItemGeometriesHorizontal=Applet-84:176,560,208,96,0;
-activityId=bb534333-c182-47ab-ab13-f6eae0666ebf
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][Applets][84]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][1][Applets][84][Configuration]
-PreloadWeight=0
-
-[Containments][1][Applets][84][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][1][ConfigDialog]
-DialogHeight=777
-DialogWidth=1195
-
-[Containments][1][Configuration]
-PreloadWeight=0
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=577
-ToolBoxButtonY=34
-sortMode=-1
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/simoneb/Pictures/I_Sfondi/gruv2.png
-SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -85,7 +47,7 @@ buttonsPosition=UpperRight
 buttonsVerticalCenter=true
 controlButtonsSpacing=9
 customAuroraeThemeImageExtension=.svgz
-customAuroraeThemePath=/home/simoneb/.local/share/aurorae/themes/Breezemite_dark_OPT
+customAuroraeThemePath=/home/simone/.local/share/aurorae/themes/Breezemite_dark_OPT
 doNotHideControlButtons=true
 horizontalScreenWidthPercent=0.058
 showButtonOnlyWhenMaximized=true
@@ -95,8 +57,8 @@ showPinToAllDesktops=true
 showWindowTitle=false
 
 [Containments][2][Applets][44][Configuration][ConfigDialog]
-DialogHeight=1046
-DialogWidth=1920
+DialogHeight=1017
+DialogWidth=960
 
 [Containments][2][Applets][45]
 immutability=1
@@ -128,7 +90,7 @@ DialogWidth=720
 
 [Containments][2][Applets][54][Configuration][General]
 groupedTaskVisualization=2
-launchers=preferred://filemanager,applications:spotify-qt_spotify-qt.desktop,applications:firefox.desktop,applications:thunderbird.desktop,[3d00b850-7143-4c19-a3d3-eb82ff08883f]\napplications:teams.desktop,[bb534333-c182-47ab-ab13-f6eae0666ebf]\napplications:discord.desktop
+launchers=preferred://filemanager,applications:thunderbird.desktop,applications:firefox.desktop
 maxStripes=1
 wheelEnabled=false
 
@@ -137,7 +99,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=8
+PreloadWeight=18
 SystrayContainmentId=8
 
 [Containments][2][Applets][78]
@@ -159,7 +121,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][83][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][2][Applets][83][Configuration][ConfigDialog]
 DialogHeight=540
@@ -288,6 +250,10 @@ plugin=org.kde.plasma.clipboard
 [Containments][8][Applets][9][Configuration]
 PreloadWeight=0
 
+[Containments][8][Applets][90]
+immutability=1
+plugin=org.kde.plasma.battery
+
 [Containments][8][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -296,135 +262,31 @@ DialogWidth=720
 PreloadWeight=0
 
 [Containments][8][General]
-extraItems=org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.keyboardlayout,org.kde.plasma.volume
+extraItems=org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.battery
 knownItems=org.kde.plasma.clipboard,org.kde.kupapplet,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.vault,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.volume
+shownItems=org.kde.plasma.battery
 
-[Containments][85]
-ItemGeometriesHorizontal=Applet-39:0,0,512,432,0;Applet-41:16,448,368,272,0;Applet-40:16,752,480,272,0;Applet-82:1648,32,240,224,0;
-activityId=3d00b850-7143-4c19-a3d3-eb82ff08883f
+[Containments][88]
+ItemGeometriesHorizontal=
+activityId=aec1659c-61a2-4e73-a42c-50265099ec19
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
-plugin=org.kde.desktopcontainment
+plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][85][Applets][39]
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][85][Applets][39][Configuration]
-PreloadWeight=0
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][85][Applets][39][Configuration][ConfigDialog]
+[Containments][88][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][85][Applets][39][Configuration][General]
-labelMode=3
-labelText=EAM1
-textLines=6
-url=file:///home/simoneb/Mega/UNI_Testi_Esercizi/Primo Anno/Elementi di Analisi
-
-[Containments][85][Applets][40]
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][85][Applets][40][Configuration]
-PreloadWeight=0
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][85][Applets][40][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][85][Applets][40][Configuration][General]
-labelMode=3
-labelText=Reti di Calcolatori
-url=file:///home/simoneb/Mega/UNI_Testi_Esercizi/Secondo Anno/Reti di Calcolatori/
-
-[Containments][85][Applets][41]
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][85][Applets][41][Configuration]
-PreloadWeight=0
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][85][Applets][41][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][85][Applets][41][Configuration][General]
-labelMode=3
-labelText=Algoritmi
-url=file:///home/simoneb/Mega/UNI_Testi_Esercizi/Secondo Anno/Algoritmi
-
-[Containments][85][Applets][82]
-immutability=1
-plugin=fokus
-
-[Containments][85][Applets][82][Configuration]
-PreloadWeight=0
-UserBackgroundHints=ShadowBackground
-
-[Containments][85][Applets][82][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][85][Applets][82][Configuration][General]
-start_focus_script_filepath=konsole -e cowsay FOCUS!
-
-[Containments][85][ConfigDialog]
-DialogHeight=1046
-DialogWidth=1920
-
-[Containments][85][Configuration]
-PreloadWeight=0
-
-[Containments][85][General]
+[Containments][88][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=577
 ToolBoxButtonY=34
-positions=2,17,desktop:/firstProject,1,5
-sortMode=-1
 
-[Containments][85][Wallpaper][org.kde.image][General]
-Image=file:///home/simoneb/Pictures/I_Sfondi/Low-Poly-View.jpg
+[Containments][88][Wallpaper][org.kde.image][General]
+Image=file:///home/simone/Pictures/Wallpapers/69618131_p0_master12002.jpg
 SlidePaths=/usr/share/plasma/wallpapers,/usr/share/wallpapers
 
 [Containments85Appletsts][39][Configuration][General]

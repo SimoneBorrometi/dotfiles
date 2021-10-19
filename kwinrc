@@ -1,4 +1,3 @@
-## @filename: ~/.config/kwinrc
 [$Version]
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
 
@@ -17,6 +16,10 @@ Name_3=New Desktop
 Name_4=New Desktop
 Number=4
 Rows=2
+
+[Effect-Blur]
+BlurStrength=5
+NoiseStrength=2
 
 [Effect-DimInactive]
 Strength=20

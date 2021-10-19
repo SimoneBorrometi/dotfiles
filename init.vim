@@ -23,7 +23,7 @@ Plug 'pacokwon/onedarkhc.vim'
 "Our plugins will go in the middle
 call plug#end()
 
-colorscheme nord
+colorscheme dracula
 
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 0

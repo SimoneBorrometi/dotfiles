@@ -9,8 +9,8 @@ HDMI-0 Width 1920x1080=988
 Number of Actions=0
 
 [KFileDialog Settings]
-Recent Files[$e]=balenaEtcher-1.5.120-x64.AppImage,file:$HOME/Pictures/I_Sfondi/kirby_ornstein.jpg,file:$HOME/Pictures/I_Sfondi/Low-Poly-River.webp,file:$HOME/Pictures/I_Sfondi/Low-Poly-Cave.jpg,file:$HOME/Pictures/I_Sfondi/gruv2.png,file:$HOME/Pictures/I_Sfondi/gruv.png,file:$HOME/Pictures/I_Sfondi/great-wave-ice-cream-1920×1080.jpg,file:$HOME/Pictures/I_Sfondi/ga9whfklaeg61.jpg,file:$HOME/Pictures/I_Sfondi/frwnz6v8zmf51.jpg,file:$HOME/Pictures/I_Sfondi/di3qzu8aczg61-1.jpg,file:$HOME/Pictures/I_Sfondi/dbr2ja24hgi61.jpg,file:$HOME/Pictures/I_Sfondi/Bilderesultat-for-2560x1440-anime-galaxy-in-2019-Scenery-.jpg,file:$HOME/Pictures/I_Sfondi/asuka.jpg,file:$HOME/Pictures/I_Sfondi/anime-girl-4-2560×1440.jpg,file:$HOME/Pictures/I_Sfondi/alena-aenami-aenami-lunar.jpg,file:$HOME/Pictures/I_Sfondi/9iylyi66fwr61.jpg,file:$HOME/Pictures/I_Sfondi/0b98de239fcb91ef0411dd0b6185e47e.jpg,file:$HOME/Mega/UNI_Lavori/Secondo Anno/Ingegneria_Del_Software/Java/Refactoring/TempConQuery/Refactoring2.java,file:///usr/share/sounds/Oxygen-Im-Cant-Connect.ogg
-Recent URLs[$e]=file:$HOME/Mega/UNI_Lavori/Secondo Anno/Ingegneria_Del_Software/,file:$HOME/Apps/Appimage/,file:$HOME/.cargo/bin/,file:$HOME/Pictures/,file:///usr/share/sounds/,file:$HOME/,file:$HOME/Mega/UNI_Lavori/Secondo Anno/Ingegneria_Del_Software/Java/Refactoring/TempConQuery/,file:$HOME/Pictures/I_Sfondi/,file:$HOME/Documents/
+Recent Files[$e]=balenaEtcher-1.5.120-x64.AppImage,file:$HOME/Pictures/Wallpapers/wep_cropped.jpg,file:$HOME/Pictures/make_exes.png,file:$HOME/Pictures/Wallpapers/wep.jpg
+Recent URLs[$e]=file:$HOME/Mega/UNI_Lavori/Secondo Anno/Ingegneria_Del_Software/,file:$HOME/.cargo/bin/,file:$HOME/Pictures/,file:///usr/share/sounds/,file:$HOME/,file:$HOME/Mega/UNI_Lavori/Secondo Anno/Ingegneria_Del_Software/Java/Refactoring/TempConQuery/,file:$HOME/Documents/,file:$HOME/Pictures/Wallpapers/
 detailViewIconSize=16
 iconViewIconSize=106
 listViewIconSize=16
@@ -53,8 +53,8 @@ minLength=714
 thickness=43
 
 [ScreenConnectors]
-0=HDMI-0
+0=eDP
 1=:0.0
 
 [Updates]
-performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js
